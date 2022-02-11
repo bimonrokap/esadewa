@@ -1,0 +1,2 @@
+@include($tableLayout)
+@stack('scripts')
