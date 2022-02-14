@@ -42,7 +42,7 @@ class Kernel extends ConsoleKernel
         $schedule->command('interconnection:siman MA_ASET_ALAT_ANGKUTAN')->hourlyAt(27)->name("interconnection-siman-alatangkutan")->withoutOverlapping();
         // $schedule->command('interconnection:siman')->hourly()->name("interconnection-siman")->withoutOverlapping();
         // $schedule->command('interconnection:siman')->weekly()->mondays()->tuesdays()->at("00:10")
-            // ->name("interconnection-siman")->withoutOverlapping();
+        // ->name("interconnection-siman")->withoutOverlapping();
     }
 
     /**
@@ -52,10 +52,11 @@ class Kernel extends ConsoleKernel
      */
     protected function commands()
     {
-        $this->load(__DIR__.'/Commands');
+        $this->load(__DIR__ . '/Commands');
 
         require base_path('routes/console.php');
     }
 }
 
 // perubahan pada repo original
+// perubahan pada kukuh
