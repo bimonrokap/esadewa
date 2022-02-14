@@ -61,3 +61,8 @@ class Kernel extends ConsoleKernel
 // perubahan pada repo original
 // perubahan master kedua
 // perubahan master ketiga
+// perubahan pada kukuh
+// perubahan kedua kukuh
+// perubahan ketiga kukuh
+// perubahan keempat kukuh
+// perubahan ke lima kukuh
